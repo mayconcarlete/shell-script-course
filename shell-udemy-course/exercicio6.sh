@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -n "$(cat alunos.txt)" ]
+if [ "$(cat alunos.txt)" -eq 0 ]
 then
     echo "opa deu certo"
 else
