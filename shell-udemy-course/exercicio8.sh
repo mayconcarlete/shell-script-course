@@ -2,7 +2,10 @@
 
 # case
 
-case "$1" in
+OPCAO=$1
+
+
+case "$OPCAO" in
     [0-9])
         echo "O parametro é um numero"
         ;;
